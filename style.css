@@ -1,0 +1,125 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    padding: 15px 40px;
+    background: #1d1f27;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar nav a:hover {
+    color: #00d4ff;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #00d4ff, #006b9f);
+    color: white;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #fff;
+    color: #006b9f;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #dffaff;
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 70px 40px;
+    background: #f6f6f6;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+.footer {
+    background: #1d1f27;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* CONTACT SECTION */
+.contact {
+    padding: 70px 40px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.wa-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.wa-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #25d366; /* Warna hijau WA */
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.wa-btn:hover {
+    background: #1ebe5d;
+    transform: translateY(-3px);
+}
